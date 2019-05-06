@@ -1,4 +1,4 @@
-package SimpleFactory;
+package DesignPatterns.SimpleFactory;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

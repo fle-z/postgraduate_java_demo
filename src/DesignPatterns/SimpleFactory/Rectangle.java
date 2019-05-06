@@ -1,4 +1,4 @@
-package SimpleFactory;
+package DesignPatterns.SimpleFactory;
 
 public class Rectangle extends Shape {
     public void draw(){

@@ -1,4 +1,4 @@
-package SimpleFactory;
+package DesignPatterns.SimpleFactory;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -20,9 +20,9 @@ public class ShapeFactory {
      * 建立形状类型和形状类名的对应关系，需要指明包名
      */
     static {
-        shapes.put(new Integer(SHAPE_TYPE_CIRCLE), "SimpleFactory.Circle");
-        shapes.put(new Integer(SHAPE_TYPE_LINE), "SimpleFactory.Line");
-        shapes.put(new Integer(SHAPE_TYPE_RECTANGLE), "SimpleFactory.Rectangle");
+        shapes.put(new Integer(SHAPE_TYPE_CIRCLE), "DesignPatterns.SimpleFactory.Circle");
+        shapes.put(new Integer(SHAPE_TYPE_LINE), "DesignPatterns.SimpleFactory.Line");
+        shapes.put(new Integer(SHAPE_TYPE_RECTANGLE), "DesignPatterns.SimpleFactory.Rectangle");
     }
 
     /**

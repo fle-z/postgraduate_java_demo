@@ -1,4 +1,4 @@
-package SimpleFactory;
+package DesignPatterns.SimpleFactory;
 
 public class Line extends Shape{
     public void draw(){

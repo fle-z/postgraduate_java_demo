@@ -1,4 +1,4 @@
-package SimpleFactory;
+package DesignPatterns.SimpleFactory;
 
 /**
  * 抽象类
