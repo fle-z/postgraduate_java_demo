@@ -2,13 +2,6 @@ package exam.nowcoder;
 import java.util.HashMap;
 import java.util.Map;
 
-class TreeNode{
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x){val=x;}
-}
-
 public class ReConstructBinaryTree {
     public TreeNode reConstructBinaryTree(int [] pre,int [] in) {
         if(pre == null || in == null){
